@@ -24,7 +24,7 @@ public class LineUp extends JFrame
 
 	public LineUp()
 	{
-		super("Daniel's Fun Time Casino Games Line Up Beta1");
+		super("Line Up");
 		setLayout(new FlowLayout());
 	}
 	
