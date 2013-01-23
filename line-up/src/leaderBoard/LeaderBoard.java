@@ -29,7 +29,7 @@ public class LeaderBoard extends JFrame
 		super("Top 10");
 		
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
-		setSize(361, 425);
+		setSize(390, 425);
 		setVisible(true);
 		setResizable(false);
 		
@@ -76,7 +76,7 @@ public class LeaderBoard extends JFrame
   
 	public static void okButton()
 	{
-		ok.setBounds(145, 350, 71, 40);
+		ok.setBounds(160, 350, 71, 40);
 		ok.setVisible(true);
 		
 		ok.addActionListener(new ActionListener()

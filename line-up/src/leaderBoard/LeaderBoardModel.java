@@ -11,9 +11,9 @@ import sqlLiteLeaderBoard.LeaderBoardJDBCDAO;
 //
 public class LeaderBoardModel extends AbstractTableModel 
 {
-	static final public ColumnData m_columns[] = { new ColumnData("", 30, JLabel.CENTER),
+	static final public ColumnData m_columns[] = { new ColumnData("", 33, JLabel.CENTER),
 												   new ColumnData("Name", 80, JLabel.CENTER),
-												   new ColumnData("Shuffles Used", 130, JLabel.CENTER),
+												   new ColumnData("Shuffles Used", 160, JLabel.CENTER),
 												   new ColumnData("Time", 113, JLabel.CENTER) };
 	protected Vector<LeaderBoardData> vector;
 
